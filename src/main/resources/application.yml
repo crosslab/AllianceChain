@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    show-sql: false
+    database-platform: com.crosslab.blockchain.core.sqlite.config.SQLiteDialect
+    generate-ddl: true
+  view:
+   prefix: /WEB-INF/jsp/
+   suffix: .jsp
+db:
+  levelDB: true    #在部分Windows机器上rocksDB会报错dll找不到，那么就用levelDB来替代
+  rocksDB: false
+singleNode: true  #如果是单节点测试，改成true
+version: 1
+name: ${NAME:ylcrosslab}
+appId: ${APP_ID:ylcrosslab}
+managerUrl: ${MANAGER_URL:http://127.0.0.1:8888/}
+publicKey: A8WLqHTjcT/FQ2IWhIePNShUEcdCzu5dG+XrQU8OMu54
+privateKey: yScdp6fNgUU+cRUTygvJG4EBhDKmOMRrK4XJ9mKVQJ8=
+singeNode: true  #单节点测试模式

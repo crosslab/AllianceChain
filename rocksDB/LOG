@@ -1,0 +1,83 @@
+2019/04/02-09:32:28.878612 209c RocksDB version: 5.10.3
+2019/04/02-09:32:28.878838 209c Git sha rocksdb_build_git_sha:@ac329cce6e4b482d086cc9c8fa1689914a753a36@
+2019/04/02-09:32:28.878889 209c Compile date Feb 26 2018
+2019/04/02-09:32:28.878935 209c DB SUMMARY
+2019/04/02-09:32:28.879720 209c CURRENT file:  CURRENT
+2019/04/02-09:32:28.879767 209c IDENTITY file:  IDENTITY
+2019/04/02-09:32:28.879823 209c MANIFEST file:  MANIFEST-000273 size: 551 Bytes
+2019/04/02-09:32:28.879878 209c MANIFEST file:  MANIFEST-000330 size: 714 Bytes
+2019/04/02-09:32:28.879922 209c SST files in ./rocksDB dir, Total Num: 7, files: 000267.sst 000269.sst 000272.sst 000286.sst 000290.sst 000293.sst 000305.sst 
+2019/04/02-09:32:28.879958 209c Write Ahead Log file in ./rocksDB: 000274.log size: 1251 ; 000331.log size: 0 ; 
+2019/04/02-09:32:28.880329 209c                         Options.error_if_exists: 0
+2019/04/02-09:32:28.880365 209c                       Options.create_if_missing: 1
+2019/04/02-09:32:28.880383 209c                         Options.paranoid_checks: 1
+2019/04/02-09:32:28.880401 209c                                     Options.env: 00000000013A9330
+2019/04/02-09:32:28.880436 209c                                Options.info_log: 000000001D80AC00
+2019/04/02-09:32:28.880476 209c                Options.max_file_opening_threads: 16
+2019/04/02-09:32:28.880506 209c                              Options.statistics: 0000000000000000
+2019/04/02-09:32:28.880523 209c                               Options.use_fsync: 0
+2019/04/02-09:32:28.880539 209c                       Options.max_log_file_size: 0
+2019/04/02-09:32:28.880559 209c                  Options.max_manifest_file_size: 18446744073709551615
+2019/04/02-09:32:28.880576 209c                   Options.log_file_time_to_roll: 0
+2019/04/02-09:32:28.880599 209c                       Options.keep_log_file_num: 1000
+2019/04/02-09:32:28.880617 209c                    Options.recycle_log_file_num: 0
+2019/04/02-09:32:28.880634 209c                         Options.allow_fallocate: 1
+2019/04/02-09:32:28.880650 209c                        Options.allow_mmap_reads: 0
+2019/04/02-09:32:28.880667 209c                       Options.allow_mmap_writes: 0
+2019/04/02-09:32:28.880683 209c                        Options.use_direct_reads: 0
+2019/04/02-09:32:28.880719 209c                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/04/02-09:32:28.880737 209c          Options.create_missing_column_families: 0
+2019/04/02-09:32:28.880767 209c                              Options.db_log_dir: 
+2019/04/02-09:32:28.880784 209c                                 Options.wal_dir: ./rocksDB
+2019/04/02-09:32:28.880803 209c                Options.table_cache_numshardbits: 6
+2019/04/02-09:32:28.880820 209c                      Options.max_subcompactions: 1
+2019/04/02-09:32:28.880836 209c                  Options.max_background_flushes: -1
+2019/04/02-09:32:28.880853 209c                         Options.WAL_ttl_seconds: 0
+2019/04/02-09:32:28.880869 209c                       Options.WAL_size_limit_MB: 0
+2019/04/02-09:32:28.880886 209c             Options.manifest_preallocation_size: 4194304
+2019/04/02-09:32:28.880903 209c                     Options.is_fd_close_on_exec: 1
+2019/04/02-09:32:28.880919 209c                   Options.advise_random_on_open: 1
+2019/04/02-09:32:28.880936 209c                    Options.db_write_buffer_size: 0
+2019/04/02-09:32:28.880952 209c                    Options.write_buffer_manager: 000000001E2B1300
+2019/04/02-09:32:28.880984 209c         Options.access_hint_on_compaction_start: 1
+2019/04/02-09:32:28.881000 209c  Options.new_table_reader_for_compaction_inputs: 0
+2019/04/02-09:32:28.881016 209c           Options.random_access_max_buffer_size: 1048576
+2019/04/02-09:32:28.881034 209c                      Options.use_adaptive_mutex: 0
+2019/04/02-09:32:28.881051 209c                            Options.rate_limiter: 0000000000000000
+2019/04/02-09:32:28.881067 209c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/04/02-09:32:28.881083 209c                       Options.wal_recovery_mode: 2
+2019/04/02-09:32:28.881133 209c                  Options.enable_thread_tracking: 0
+2019/04/02-09:32:28.881152 209c                  Options.enable_pipelined_write: 0
+2019/04/02-09:32:28.881169 209c         Options.allow_concurrent_memtable_write: 1
+2019/04/02-09:32:28.881185 209c      Options.enable_write_thread_adaptive_yield: 1
+2019/04/02-09:32:28.881201 209c             Options.write_thread_max_yield_usec: 100
+2019/04/02-09:32:28.881217 209c            Options.write_thread_slow_yield_usec: 3
+2019/04/02-09:32:28.881233 209c                               Options.row_cache: None
+2019/04/02-09:32:28.881249 209c                              Options.wal_filter: None
+2019/04/02-09:32:28.881266 209c             Options.avoid_flush_during_recovery: 0
+2019/04/02-09:32:28.881282 209c             Options.allow_ingest_behind: 0
+2019/04/02-09:32:28.881297 209c             Options.preserve_deletes: 0
+2019/04/02-09:32:28.881316 209c             Options.two_write_queues: 0
+2019/04/02-09:32:28.881332 209c             Options.manual_wal_flush: 0
+2019/04/02-09:32:28.881347 209c             Options.max_background_jobs: 2
+2019/04/02-09:32:28.881363 209c             Options.max_background_compactions: -1
+2019/04/02-09:32:28.881379 209c             Options.avoid_flush_during_shutdown: 0
+2019/04/02-09:32:28.881395 209c           Options.writable_file_max_buffer_size: 1048576
+2019/04/02-09:32:28.881412 209c             Options.delayed_write_rate : 16777216
+2019/04/02-09:32:28.881428 209c             Options.max_total_wal_size: 0
+2019/04/02-09:32:28.881444 209c             Options.delete_obsolete_files_period_micros: 21600000000
+2019/04/02-09:32:28.881460 209c                   Options.stats_dump_period_sec: 600
+2019/04/02-09:32:28.881476 209c                          Options.max_open_files: -1
+2019/04/02-09:32:28.881492 209c                          Options.bytes_per_sync: 0
+2019/04/02-09:32:28.881508 209c                      Options.wal_bytes_per_sync: 0
+2019/04/02-09:32:28.881524 209c       Options.compaction_readahead_size: 0
+2019/04/02-09:32:28.881540 209c Compression algorithms supported:
+2019/04/02-09:32:28.881583 209c 	Snappy supported: 0
+2019/04/02-09:32:28.881617 209c 	Zlib supported: 0
+2019/04/02-09:32:28.881632 209c 	Bzip supported: 0
+2019/04/02-09:32:28.881647 209c 	LZ4 supported: 0
+2019/04/02-09:32:28.881663 209c 	ZSTDNotFinal supported: 0
+2019/04/02-09:32:28.881679 209c 	ZSTD supported: 0
+2019/04/02-09:32:28.881753 209c Fast CRC32 supported: Supported on x86
+2019/04/02-09:32:28.882303 209c [c:\users\aretter\code\rocksdb\db\db_impl.cc:249] Shutdown: canceling all background work
+2019/04/02-09:32:28.882412 209c [c:\users\aretter\code\rocksdb\db\db_impl.cc:379] Shutdown complete
